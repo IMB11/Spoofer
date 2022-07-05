@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "spoofer",
+  "version": "${version}",
+  "name": "Spoofer",
+  "description": "Spoof other players!",
+  "authors": [
+    "mineblock11"
+  ],
+  "contact": {
+    "website": "https://github.com/mineblock11"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/spoofer/icon.png",
+  "accessWidener": "spoofer.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "mine.block.spoofer.client.SpooferClient"
+    ],
+    "main": [
+      "mine.block.spoofer.SpooferManager"
+    ]
+  },
+  "mixins": [
+    "Spoofer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19"
+  }
+}
