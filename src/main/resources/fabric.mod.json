@@ -11,7 +11,7 @@
     "website": "https://github.com/mineblock11"
   },
   "license": "All-Rights-Reserved",
-  "icon": "assets/spoofer/icon.png",
+  "icon": "spoofericon.png",
   "accessWidener": "spoofer.accesswidener",
   "environment": "*",
   "entrypoints": {

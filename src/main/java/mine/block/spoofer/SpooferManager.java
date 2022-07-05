@@ -16,6 +16,8 @@ public class SpooferManager implements ModInitializer {
 
     // TARGET, <SPOOF USERNAME, LABEL>
     public static final HashMap<String, Pair<String, Text>> currentlySpoofed = new HashMap<>();
+
+    public static boolean ENABLE_CHAT_SPOOF = false;
     public static final HashMap<String, Identifier> TEXTURE_CACHE = new HashMap<>();
 
     @Override
