@@ -1,22 +1,12 @@
-package mine.block.spoofer.mixin;
+package com.mineblock11.spoofer.mixin;
 
-import com.google.common.base.MoreObjects;
-import com.mojang.authlib.Agent;
-import com.mojang.authlib.GameProfile;
-import com.mojang.authlib.ProfileLookupCallback;
-import com.mojang.authlib.minecraft.MinecraftProfileTexture;
-import com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository;
-import mine.block.spoofer.SkinManager;
-import net.minecraft.client.MinecraftClient;
+import com.mineblock11.spoofer.SkinManager;
 import net.minecraft.client.network.AbstractClientPlayerEntity;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.PlayerEntityRenderer;
-import net.minecraft.client.util.DefaultSkinHelper;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.Pair;
-import org.checkerframework.checker.units.qual.A;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -24,9 +14,7 @@ import org.spongepowered.asm.mixin.injection.ModifyVariable;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import java.util.HashMap;
-
-import static mine.block.spoofer.SpooferManager.*;
+import static com.mineblock11.spoofer.SpooferManager.*;
 
 @Mixin(PlayerEntityRenderer.class)
 public class PlayerEntityRendererMixin {

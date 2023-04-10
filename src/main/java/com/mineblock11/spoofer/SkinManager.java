@@ -1,4 +1,4 @@
-package mine.block.spoofer;
+package com.mineblock11.spoofer;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;

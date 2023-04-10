@@ -1,8 +1,8 @@
-package mine.block.spoofer.client;
+package com.mineblock11.spoofer.client;
 
 import com.mojang.brigadier.Command;
 import com.mojang.brigadier.arguments.StringArgumentType;
-import mine.block.spoofer.SpooferManager;
+import com.mineblock11.spoofer.SpooferManager;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;

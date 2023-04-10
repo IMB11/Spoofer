@@ -3,31 +3,31 @@
   "id": "spoofer",
   "version": "${version}",
   "name": "Spoofer",
-  "description": "Spoof other players!",
+  "description": "Disguise players as others.",
   "authors": [
     "mineblock11"
   ],
   "contact": {
     "website": "https://github.com/mineblock11"
   },
-  "license": "All-Rights-Reserved",
-  "icon": "spoofericon.png",
+  "license": "MIT",
+  "icon": "assets/spoofer/icon.png",
   "accessWidener": "spoofer.accesswidener",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "client": [
-      "mine.block.spoofer.client.SpooferClient"
+      "com.mineblock11.spoofer.client.SpooferClient"
     ],
     "main": [
-      "mine.block.spoofer.SpooferManager"
+      "com.mineblock11.spoofer.SpooferManager"
     ]
   },
   "mixins": [
-    "Spoofer.mixins.json"
+    "spoofer.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.8",
     "fabric": "*",
-    "minecraft": "1.19"
+    "minecraft": ">=1.19.2"
   }
 }

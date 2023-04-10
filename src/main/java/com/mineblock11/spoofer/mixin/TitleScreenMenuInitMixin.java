@@ -1,6 +1,6 @@
-package mine.block.spoofer.mixin;
+package com.mineblock11.spoofer.mixin;
 
-import mine.block.spoofer.SkinManager;
+import com.mineblock11.spoofer.SkinManager;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-import static mine.block.spoofer.SpooferManager.TEXTURE_CACHE;
+import static com.mineblock11.spoofer.SpooferManager.TEXTURE_CACHE;
 
 @Mixin(TitleScreen.class)
 public class TitleScreenMenuInitMixin {

@@ -1,4 +1,4 @@
-package mine.block.spoofer;
+package com.mineblock11.spoofer;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.text.Text;

@@ -10,6 +10,7 @@ This can be useful for videomaking, roleplaying and other fun pranks.
 
 - `/spoof {target username} {new username} {nametag}` - Spoof a player as another player.
 - `/unspoof {target username}` - Remove the spoof.
+- `/togglechatspoof` - Toggles spoofing of disguised users in the chat.
 
 ## Showcase
 
